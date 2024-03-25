@@ -13,6 +13,8 @@ public class App {
         Suit[] suits = new Suit[quantitySuits];
         int usedCards = 0;
 
+
+        //testing branches :D
         for (int i=0; i<4; i++){
             System.out.print("Which suit do you want to add? ");
             String suit = read.nextLine();
